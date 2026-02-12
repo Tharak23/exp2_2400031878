@@ -1,13 +1,8 @@
 package com.klu.hibernateproject;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main(String[] args) {
+        String user = args.length > 0 ? args[0] : "World";
+        System.out.println("Hello " + user + "!");
     }
 }
